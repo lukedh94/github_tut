@@ -39,6 +39,6 @@ df = pd.read_csv(filepath)
 ''' Remove comments below as the respective functions are completed '''
 df['fips'] = df.apply(geoid_parse_cty_fip, axis=1)
 df['tract_geoid'] = df.apply(geoid_parse_cty_tract, axis=1)
-df['name_county'] =  df.apply(county_name, axis=1)
+#df['name_county'] =  df.apply(county_name, axis=1)
 #df['name_state'] =  df.apply(state_name, axis=1)
 #df['num_tract'] =  df.apply(tract_num, axis=1)
